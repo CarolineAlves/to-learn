@@ -1,0 +1,34 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="assets/slick-carousel/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/slick-carousel/slick/slick-theme.css"/>
+  </head>
+  <body>
+
+<div class="carrousel">
+  <div class="first"><p>First Image</p></div>
+  <div class="second"><p>Second Image</p></div>
+  <div class="third"><p>Third Image</p></div>
+  <div class="fourth"><p>Fourth Image</p></div>
+  <div class="fifth"><p>Fifth Image</p></div>
+</div> <!-- /Carrousel -->
+
+
+
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/slick-carousel/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carrousel').slick({
+            autoplay : true,
+            arrows   : true
+      });
+    });
+  </script>
+
+  </body>
+</html>
